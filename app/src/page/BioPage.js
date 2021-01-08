@@ -37,7 +37,7 @@ import { Container, Typography } from '@material-ui/core';
           technical and communication skills as
           well as the commitment to meticulous
           accuracy. I am always prepared to face
-          new challenges
+          new challenges.
           </Typography>
         </Container>       
       </Zoom>    
