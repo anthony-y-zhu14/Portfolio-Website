@@ -23,7 +23,7 @@ import { Container, Typography } from '@material-ui/core';
   export default function BioPage() {
   const classes = useStyles();
     return(         
-      <Zoom in={true} timeout={2000}>        
+      <Zoom in={true} timeout={750}>        
         <Container className={classes.content}>
           <Typography variant='p'>
           After studying and working in Civil

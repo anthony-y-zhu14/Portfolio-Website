@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
   appBar: {
     zIndex: theme.zIndex.drawer + 1,    
     marginTop: '10px',
-    background: "rgba(200, 200, 200, 0.4)",
+    background: "rgba(200, 200, 200, 0.6)",
     backdropFilter: 'blur(8px)', 
     boxShadow: '0 4px 32px 0 rgba( 50, 50, 50)',
     borderRadius: '15px',
