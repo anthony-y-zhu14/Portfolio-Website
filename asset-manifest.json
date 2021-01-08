@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website/static/css/main.d1929fa1.chunk.css",
+    "main.js": "/Portfolio-Website/static/js/main.a97fde5a.chunk.js",
+    "main.js.map": "/Portfolio-Website/static/js/main.a97fde5a.chunk.js.map",
+    "runtime-main.js": "/Portfolio-Website/static/js/runtime-main.5da4f173.js",
+    "runtime-main.js.map": "/Portfolio-Website/static/js/runtime-main.5da4f173.js.map",
+    "static/js/2.49303346.chunk.js": "/Portfolio-Website/static/js/2.49303346.chunk.js",
+    "static/js/2.49303346.chunk.js.map": "/Portfolio-Website/static/js/2.49303346.chunk.js.map",
+    "index.html": "/Portfolio-Website/index.html",
+    "static/css/main.d1929fa1.chunk.css.map": "/Portfolio-Website/static/css/main.d1929fa1.chunk.css.map",
+    "static/js/2.49303346.chunk.js.LICENSE.txt": "/Portfolio-Website/static/js/2.49303346.chunk.js.LICENSE.txt",
+    "static/media/algonquin.a2c987a9.png": "/Portfolio-Website/static/media/algonquin.a2c987a9.png",
+    "static/media/index.css": "/Portfolio-Website/static/media/background.d96655da.jpg",
+    "static/media/carleton.7ce180b8.png": "/Portfolio-Website/static/media/carleton.7ce180b8.png",
+    "static/media/profile.43fa5601.jpg": "/Portfolio-Website/static/media/profile.43fa5601.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5da4f173.js",
+    "static/js/2.49303346.chunk.js",
+    "static/css/main.d1929fa1.chunk.css",
+    "static/js/main.a97fde5a.chunk.js"
+  ]
+}
