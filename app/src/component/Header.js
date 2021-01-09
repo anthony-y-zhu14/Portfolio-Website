@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
     border: '1px solid rgba( 250, 250, 250, 0.5)',
     padding: '8px',
     textAlign: 'center',
+    position: 'fixed'
   }
 }));
 

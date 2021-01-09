@@ -52,7 +52,7 @@ export default function Main(){
                     <Header render={render}/>
                     {page()} 
                 </div>
-            }            
+            }         
         </Container>
     )
 }

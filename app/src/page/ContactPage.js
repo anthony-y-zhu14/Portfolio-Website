@@ -60,10 +60,12 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
           </Container>   
 
           <Container className={classes.content_other}>       
-            <Typography>You can also contact me through </Typography>
-            <Tooltip title="Facebook" ><IconButton onClick={() => openUrl(FacebookUrl)}><FacebookIcon /></IconButton></Tooltip>
-            <Tooltip title="LinkedIn" ><IconButton onClick={() => openUrl(LinkedInUrl)}><LinkedInIcon /></IconButton></Tooltip>
-            <Tooltip title="GitHub" ><IconButton onClick={() => openUrl(GithubUrl)}><GitHubIcon /></IconButton></Tooltip>          
+            <Typography>
+              You can also contact me through 
+              <Tooltip title="Facebook" ><IconButton onClick={() => openUrl(FacebookUrl)}><FacebookIcon /></IconButton></Tooltip>
+              <Tooltip title="LinkedIn" ><IconButton onClick={() => openUrl(LinkedInUrl)}><LinkedInIcon /></IconButton></Tooltip>
+              <Tooltip title="GitHub" ><IconButton onClick={() => openUrl(GithubUrl)}><GitHubIcon /></IconButton></Tooltip>   
+            </Typography>       
           </Container>  
 
         </Container>  

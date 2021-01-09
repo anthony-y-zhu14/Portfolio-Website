@@ -10,7 +10,7 @@ import leetcodeImg from "../img/LeetCode_logo.png"
   const useStyles = makeStyles((theme) => ({
   content: {
     flexGrow: 1,
-    padding: theme.spacing(3),
+    padding: theme.spacing(1),
     marginTop: '200px',
     color: "black",  
     textAlign: 'center',
