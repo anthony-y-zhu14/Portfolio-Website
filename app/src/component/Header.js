@@ -4,7 +4,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Tabs from './Tabs'
 import profilePic from '../img/profile.jpg'
 import Avatar from '@material-ui/core/Avatar';
-import { IconButton } from '@material-ui/core';
+import { IconButton, Tooltip } from '@material-ui/core';
 import Zoom from '@material-ui/core/Zoom';
 
 const useStyles = makeStyles((theme) => ({
@@ -33,7 +33,7 @@ export default function ClippedDrawer(action) {
     <Zoom in={true} timeout={500}>
       
       <AppBar variant='elevation' position='fixed' className={classes.appBar}>    
-          <div><IconButton onClick={()=>{action.render.renderFront()}}><Avatar sizes='max' alt='Anthony' src={profilePic} /></IconButton></div>       
+          <div><Tooltip title="Home"><IconButton onClick={()=>{action.render.renderFront()}}><Avatar sizes='max' alt='Anthony' src={profilePic} /></IconButton></Tooltip></div>  
           <Tabs render={action.render} />
       </AppBar>  
 
