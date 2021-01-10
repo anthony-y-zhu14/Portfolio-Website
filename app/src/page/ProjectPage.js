@@ -46,7 +46,7 @@ import leetcodeImg from "../img/LeetCode_logo.png"
       <Zoom in={true} timeout={750}>                 
         <Grid container className={classes.content} spacing={2} justify='center'> 
         {Object.keys(projects).map(project => (
-          <Grid item xs={5}>
+          <Grid item xs={6}>
             <ProjectCard project={projects[project]} />
           </Grid>
         ))}  

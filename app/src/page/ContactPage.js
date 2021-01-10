@@ -63,8 +63,11 @@ import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
     const [alertMessage, setAlertMessage] = React.useState('');
 
     const hanleSend = () => {
-      setAlert('success');
-      setAlertMessage(`Message has been sent, Thank you!`);
+      // setAlert('success');
+      // setAlertMessage(`Message has been sent, Thank you!`);
+      // setOpen(true);
+      setAlert('info');
+      setAlertMessage(`Work in progress`);
       setOpen(true);
     }
 
@@ -104,7 +107,7 @@ import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 
             <br/>
             <br/>  
-            <Fab color='primary' variant='extended' onClick={hanleSend}>Send</Fab>
+            <Fab color='primary' variant='extended' onClick={hanleSend}>Press Me</Fab>
           </Container>   
 
           <Container className={classes.content_other}>       

@@ -5,6 +5,8 @@ import { Grid } from '@material-ui/core';
 import NavigateNextRoundedIcon from '@material-ui/icons/NavigateNextRounded'
 import Fab from '@material-ui/core/Fab';
 import Zoom from '@material-ui/core/Zoom';
+import profilePic from '../img/profile.jpg'
+import Avatar from '@material-ui/core/Avatar';
 
   const useStyles = makeStyles((theme) => ({
   content: {
@@ -27,6 +29,8 @@ import Zoom from '@material-ui/core/Zoom';
         <main className={classes.content}>
           <Grid container justify='center' spacing={10}>
             <Grid item><Typography variant='h3'>Welcome</Typography></Grid>
+            <Avatar sizes='max' alt='Anthony' src={profilePic} />           
+
             <Grid item>
             <Typography variant='h5'>
               I'm Anthony Y. Zhu,
