@@ -23,7 +23,7 @@ import leetcodeImg from "../img/LeetCode_logo.png"
       title: "UCLEI",
       intro: "A stock trading simulation website that provides a safe, easy-to-use sandbox environment for users to experience how stock market trading works.",
       tech: "React, JavaScript",
-      URL: "https://github.com/anthony-y-zhu14/UCLEI---Stock-Trading-Platform-Sandbox"
+      URL: "https://uclei.herokuapp.com/"
     },
     Shoppies : {
       img : shoppiesImg,
