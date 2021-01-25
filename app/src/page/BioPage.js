@@ -10,7 +10,7 @@ import { Container, Typography } from '@material-ui/core';
       padding: theme.spacing(3),
       marginTop: '200px',
       color: "black",  
-      background: "rgba(255, 255, 255, 0.3)",
+      background: "rgba(200, 200, 200, 0.5)",
       backdropFilter: 'blur(8px)',  
       textAlign: 'center',
       borderRadius: '30px',
@@ -24,20 +24,11 @@ import { Container, Typography } from '@material-ui/core';
   const classes = useStyles();
     return(         
       <Zoom in={true} timeout={750}>        
+
         <Container className={classes.content}>
+          
           <Typography variant='p'>
-          After studying and working in Civil
-          Engineering field, I have decided to
-          pursue a career in Computer Science.
-          Prior experience gifted me with
-          motivation and professionalism as well
-          as the desire to explore the unknown
-          and the courage to solve the seemingly
-          unsolvable. With my excellent
-          technical and communication skills as
-          well as the commitment to meticulous
-          accuracy. I am always prepared to face
-          new challenges.
+          PlaceHolder
           </Typography>
         </Container>       
       </Zoom>    
