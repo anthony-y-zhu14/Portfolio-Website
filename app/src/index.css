@@ -5,11 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: black;
-  background-image: url('./img/background.jpg');
-  background-repeat: stretch;
-  background-attachment: fixed ;
-  background-size: cover;
+  background-color: aliceblue;
 }
 
 code {

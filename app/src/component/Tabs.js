@@ -47,9 +47,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
   },
   tabs: {
-      color: 'black',
       fontWeight: 'bold',
-      borderRadius: '25px',
+      borderRadius: '15px',
   }
 }));
 
@@ -64,7 +63,7 @@ export default function TabsWrappedLabel(action) {
   return (
     <div>     
 
-      <Tabs className={classes.tabs} value={value} onChange={handleChange} centered indicatorColor="primary" variant="fullWidth">      
+      <Tabs className={classes.tabs} value={value} onChange={handleChange} indicatorColor="primary" >      
         <Tab value="one" icon={<InsertDriveFileRoundedIcon />}label='My Project' {...a11yProps('one')} 
             onClick={()=>{              
                 action.render.renderProject()

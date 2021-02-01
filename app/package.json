@@ -1,5 +1,5 @@
 {
-  "homepage": "https://anthony-y-zhu14.github.io/Portfolio-Website/",
+  "homepage": "https://anthony-y-zhu14.github.io/Portfolio-Website",
   "name": "app",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +12,8 @@
     "@testing-library/user-event": "^12.5.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-lottie": "^1.2.3",
+    "react-particles-js": "^3.4.1",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },

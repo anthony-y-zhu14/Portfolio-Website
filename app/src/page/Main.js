@@ -4,7 +4,7 @@ import FrontPage from './FrontPage'
 import ProjectPage from './ProjectPage'
 import BioPage from './BioPage'
 import ContactPage from './ContactPage'
-import { Container } from '@material-ui/core';
+
 
 export default function Main(){    
 
@@ -45,14 +45,15 @@ export default function Main(){
 
     return (
         
-        <Container>    
+        <React.Fragment>    
+            
             {frontPage && <FrontPage render={render} /> }
             {!frontPage && 
-                <div>
+                <React.Fragment>
                     <Header render={render}/>
                     {page()} 
-                </div>
+                </React.Fragment>
             }         
-        </Container>
+        </React.Fragment>
     )
 }
