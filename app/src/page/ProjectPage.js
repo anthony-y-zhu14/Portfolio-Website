@@ -10,11 +10,10 @@ import quickinImg from "../asset/QuickIn.PNG";
   const useStyles = makeStyles((theme) => ({
   content: {
     flexGrow: 1,
-    padding: theme.spacing(1),
+    padding: theme.spacing(3),
     marginTop: '200px',
     textAlign: 'center', 
     background: 'transparent',
-    padding: '"100px'
     },
   }));
 
@@ -53,7 +52,7 @@ import quickinImg from "../asset/QuickIn.PNG";
   const classes = useStyles();
     return(
       <Container className={classes.content}>
-        <Grid container spacing={8}> 
+        <Grid container spacing={2}> 
           <Grid item xs={12}>
             <Typography variant='h5'>Here are some of my project I really enjoyed building</Typography>
           </Grid>

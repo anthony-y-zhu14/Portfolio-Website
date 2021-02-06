@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import ParticlesBackground from './component/ParticlesBackground'
 import { createMuiTheme, ThemeProvider } from "@material-ui/core";
 
 const colorTheme = createMuiTheme({
@@ -72,8 +71,7 @@ const themes = createMuiTheme({
 
 ReactDOM.render(
   <ThemeProvider theme={themes}>
-    <React.StrictMode>    
-      <ParticlesBackground/>  
+    <React.StrictMode>     
       <App />
     </React.StrictMode>
   </ThemeProvider>,

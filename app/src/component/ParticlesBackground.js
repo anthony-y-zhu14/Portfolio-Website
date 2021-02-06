@@ -7,10 +7,10 @@ export default function ParticlesBackground() {
             params={{
             "particles": {
                 "number": {
-                    "value": 100
+                    "value": 20
                 },
                 "size": {
-                    "value": 5
+                    "value": 10
                 },
                 "line_linked": {
                     "color": {

@@ -1,5 +1,6 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
+import ParticlesBackground from "../component/ParticlesBackground"
 import Typography from '@material-ui/core/Typography';
 import { Container, Grid, Paper } from '@material-ui/core';
 import NavigateNextRoundedIcon from '@material-ui/icons/NavigateNextRounded'
@@ -12,7 +13,7 @@ import Avatar from '@material-ui/core/Avatar';
   content: {
     flexGrow: 1,
     padding: theme.spacing(3),
-    marginTop: '40%', 
+    marginTop: '10%', 
     borderRadius: '30px',
     textAlign: 'center',
     border: "1px solid rgb(255, 255, 255)"
@@ -24,7 +25,7 @@ import Avatar from '@material-ui/core/Avatar';
     return(   
       <Zoom in={true}>          
         <Container>
-          
+        <ParticlesBackground/>
           <Paper className={classes.content}>          
           <Grid container spacing={3}>
             <Grid item xs={12}><Typography variant='h3'>Welcome</Typography></Grid>                        
