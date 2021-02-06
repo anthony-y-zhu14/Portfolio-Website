@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import ProjectCard from '../component/ProjectCard'
-import { Grid, Typography } from '@material-ui/core';
+import { Container, Grid, Typography } from '@material-ui/core';
 import ucleiImg from "../asset/UCLEI.png";
 import shoppiesImg from "../asset/Shoppies.png";
 import leetcodeImg from "../asset/LeetCode_logo.png";
@@ -13,7 +13,8 @@ import quickinImg from "../asset/QuickIn.PNG";
     padding: theme.spacing(1),
     marginTop: '200px',
     textAlign: 'center', 
-    background: 'transparent'  
+    background: 'transparent',
+    padding: '"100px'
     },
   }));
 
@@ -51,18 +52,21 @@ import quickinImg from "../asset/QuickIn.PNG";
   export default function ProjectPage() {
   const classes = useStyles();
     return(
-                   
-        <Grid className={classes.content} container spacing={2}> 
-        <Grid item xs={12}>
+      <Container className={classes.content}>
+        <Grid container spacing={8}> 
+          <Grid item xs={12}>
             <Typography variant='h5'>Here are some of my project I really enjoyed building</Typography>
           </Grid>
-        {Object.keys(projects).map(project => (
           <Grid item xs={12}>
-            <ProjectCard project={projects[project]} />
+            <br/>
           </Grid>
-        ))}  
+          {Object.keys(projects).map(project => (
+            <Grid item xs={6}>
+              <ProjectCard project={projects[project]} />
+            </Grid>
+          ))}  
         </Grid> 
-        
+      </Container>
     );
 }
 

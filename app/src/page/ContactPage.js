@@ -93,13 +93,13 @@ import VirtualMeetingLottie from '../component/Lottie_VirtualMeeting';
           </Snackbar>         
                
           <Paper className={classes.content}>   
-            
+            <VirtualMeetingLottie/>
             <ButtonGroup variant='contained' className={classes.options}>
               <Button color={renderMessageUI? "primary" : "secondary"} onClick={renderMessage}>Send me an email</Button>
               <Button color={renderSocialMedia? "primary" : "secondary"} onClick={renderSocial}>Find me on Social Media</Button>
             </ButtonGroup>
 
-            <VirtualMeetingLottie/>
+            
             
             {renderMessageUI && (
               <React.Fragment>
@@ -112,7 +112,7 @@ import VirtualMeetingLottie from '../component/Lottie_VirtualMeeting';
                     <TextField variant='outlined' label="Email" value={email} onChange={(e)=>setEmail(e.target.value)} InputProps={{classes: {root : classes.input},startAdornment: (<InputAdornment position='start'><Icon><MailOutlineIcon /></Icon></InputAdornment>)}}/> 
                   </Grid>
                   <Grid item xs={12}>
-                    <TextField variant='outlined' label="Message" value={message} onChange={(e)=>setMessage(e.target.value)} multiline rows={4} fullWidth InputProps={{classes: {root : classes.input}}} inputProps={{style: {textAlign: 'center'}}}/>  
+                    <TextField variant='outlined' label="Message" value={message} onChange={(e)=>setMessage(e.target.value)} multiline rows={4} InputProps={{classes: {root : classes.input}}}/>  
                   </Grid>                  
                   <Grid item xs={12}>
                     <br/>

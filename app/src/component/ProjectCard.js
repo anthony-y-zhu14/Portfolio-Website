@@ -9,10 +9,13 @@ import { Zoom } from '@material-ui/core';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: '800px',
     margin: '0% auto',  
     borderRadius: '15px',
     border: "1px solid rgb(255, 255, 255)"
+  },
+  card: {
+    maxWidth: '400px',
+    maxHeight: '400px',
   },
   media: {
     paddingTop: '56.25%',      
@@ -24,11 +27,11 @@ export default function ProjectCard(data) {
   return (
     <Zoom in={true}>
     <Card className={classes.root}>
-      <CardActionArea onClick={() => window.open(data.project.URL, "_blank")} >
+      <CardActionArea className={classes.root} onClick={() => window.open(data.project.URL, "_blank")} >
         <CardMedia className={classes.media} image={data.project.img} title={data.project.title}/>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">{data.project.title}</Typography>
-          <Typography variant="body2" color="textSecondary" component="p">{data.project.intro}</Typography>
+          <Typography variant="body2" color="textSecondary" component="p" style={{textAlign: 'left'}}>{data.project.intro}</Typography>
           <Typography variant="body1" color="primary" component="p">{data.project.tech}</Typography>
         </CardContent>
       </CardActionArea>

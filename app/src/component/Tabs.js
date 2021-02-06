@@ -5,8 +5,6 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import InsertDriveFileRoundedIcon from '@material-ui/icons/InsertDriveFileRounded';
-import ContactMailIcon from '@material-ui/icons/ContactMail';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -64,17 +62,17 @@ export default function TabsWrappedLabel(action) {
     <div>     
 
       <Tabs className={classes.tabs} value={value} onChange={handleChange} indicatorColor="primary" >      
-        <Tab value="one" icon={<InsertDriveFileRoundedIcon />}label='My Project' {...a11yProps('one')} 
+        <Tab value="one" label='My Project' {...a11yProps('one')} 
             onClick={()=>{              
                 action.render.renderProject()
             }}
         />
-        <Tab value="two"  label='About Me' {...a11yProps('two')} 
+        <Tab value="two" label='About Me' {...a11yProps('two')} 
             onClick={()=>{              
                 action.render.renderBio()
             }}  
         />
-        <Tab value="three" icon={<ContactMailIcon />} label='Contact Me' {...a11yProps('three')} 
+        <Tab value="three" label='Contact Me' {...a11yProps('three')} 
             onClick={()=>{              
                 action.render.renderContact()
             }}
